@@ -1,0 +1,16 @@
+{
+  "number": 1,
+  "Service": "localizer",
+  "entities": [
+    {
+      "name": "Translations",
+      "kind": "localization",
+      "path": "entities/ext_9e324a78-c635-4f21-883c-05c34feea2c9/localization.json",
+      "description": "",
+      "namespace": "ext_9e324a78-c635-4f21-883c-05c34feea2c9",
+      "code": "",
+      "history": null,
+      "resources": null
+    }
+  ]
+}

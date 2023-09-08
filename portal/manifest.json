@@ -1,0 +1,22 @@
+{
+  "number": 1,
+  "Service": "portal",
+  "entities": [
+    {
+      "name": "Portal",
+      "kind": "portal",
+      "path": "entities/ext_9e324a78-c635-4f21-883c-05c34feea2c9/portal.json",
+      "description": "",
+      "namespace": "ext_9e324a78-c635-4f21-883c-05c34feea2c9",
+      "code": "",
+      "history": null,
+      "resources": [
+        {
+          "kind": "settingValues",
+          "path": "resources/ext_9e324a78-c635-4f21-883c-05c34feea2c9/settings.json",
+          "contentType": ""
+        }
+      ]
+    }
+  ]
+}

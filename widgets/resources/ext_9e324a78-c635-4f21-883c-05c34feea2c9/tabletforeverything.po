@@ -1,0 +1,86 @@
+msgid ""
+msgstr ""
+
+msgctxt ".__name"
+msgid "Таблица для всего"
+msgstr "Таблица для всего"
+
+msgctxt ".description"
+msgid "То, чего все ждали."
+msgstr "То, чего все ждали."
+
+msgctxt ".descriptor.fields[0].defaultValue"
+msgid "https://elma365.tanais.ru/pub/v1/app/umbrella_corp/Mansions/list"
+msgstr "https://elma365.tanais.ru/pub/v1/app/umbrella_corp/Mansions/list"
+
+msgctxt ".descriptor.fields[0].view.name"
+msgid "Путь для запроса элементов приложения"
+msgstr "Путь для запроса элементов приложения"
+
+msgctxt ".descriptor.fields[0].view.tooltip"
+msgid "Полное описание запроса можно найти в приложении, выбрав пункт API."
+msgstr "Полное описание запроса можно найти в приложении, выбрав пункт API."
+
+msgctxt ".descriptor.fields[1].defaultValue"
+msgid "b7945837-23c9-472f-98f3-d8004d917670"
+msgstr "b7945837-23c9-472f-98f3-d8004d917670"
+
+msgctxt ".descriptor.fields[1].view.name"
+msgid "Токен авторизации"
+msgstr "Токен авторизации"
+
+msgctxt ".descriptor.fields[1].view.tooltip"
+msgid "Токен авторизации можно посмотреть в разделе администрирование, выбрав пункт Токены."
+msgstr "Токен авторизации можно посмотреть в разделе администрирование, выбрав пункт Токены."
+
+msgctxt ".descriptor.fields[2].defaultValue"
+msgid "{\n    \"or\":[\n        {\n            \"eq\":[\n                {\"field\": \"__index\"},\n                {\"const\":1}\n            ]\n        },\n        {\n            \"like\":[\n                {\"field\": \"__name\"},\n                {\"const\": \"Раккун-Сити\"}\n            ]\n        }\n    ]\n}"
+msgstr "{\n    \"or\":[\n        {\n            \"eq\":[\n                {\"field\": \"__index\"},\n                {\"const\":1}\n            ]\n        },\n        {\n            \"like\":[\n                {\"field\": \"__name\"},\n                {\"const\": \"Раккун-Сити\"}\n            ]\n        }\n    ]\n}"
+
+msgctxt ".descriptor.fields[2].view.name"
+msgid "Текст условия"
+msgstr "Текст условия"
+
+msgctxt ".descriptor.fields[2].view.tooltip"
+msgid "Полное описание фильтра можно найти здесь. https://api.elma365.com/ru/public-api/guides/Filter/"
+msgstr "Полное описание фильтра можно найти здесь. https://api.elma365.com/ru/public-api/guides/Filter/"
+
+msgctxt ".descriptor.fields[3].defaultValue"
+msgid "{\n    \"__name\":true,\n    \"__createdAt\":true,\n    \"__createdBy\":true,\n    \"__index\":true,\n    \"__updatedAt\":true,\n    \"__updatedBy\":true\n}"
+msgstr "{\n    \"__name\":true,\n    \"__createdAt\":true,\n    \"__createdBy\":true,\n    \"__index\":true,\n    \"__updatedAt\":true,\n    \"__updatedBy\":true\n}"
+
+msgctxt ".descriptor.fields[3].view.name"
+msgid "Список полей для отображения"
+msgstr "Список полей для отображения"
+
+msgctxt ".descriptor.fields[3].view.tooltip"
+msgid "Полного описания полей еще нет."
+msgstr "Полного описания полей еще нет."
+
+msgctxt ".descriptor.fields[4].defaultValue"
+msgid "Mansions"
+msgstr "Mansions"
+
+msgctxt ".descriptor.fields[4].view.name"
+msgid "Идентификатор"
+msgstr "Идентификатор"
+
+msgctxt ".descriptor.fields[4].view.tooltip"
+msgid "У разных таблиц на одной странице должны быть разные идентификаторы."
+msgstr "У разных таблиц на одной странице должны быть разные идентификаторы."
+
+msgctxt ".descriptor.fields[5].view.name"
+msgid "Json"
+msgstr "Json"
+
+msgctxt ".descriptor.template.content.[6].content.[0].content.[0].values.html"
+msgid "\u003cstyle\u003e\n\n.table\n{\n\tdisplay:table;\n}\n\n.tablerow\n{\n\tdisplay:table-row;\n\tmin-height:20px;\n}\n\n.tablecell\n{\n\tdisplay:table-cell;\n\tmin-width:40px;\n}\n\n.scrollable\n{\n\toverflow-x:scroll;\n\toverflow-y:scroll;\n\tmax-width:1200px;\n\tmax-height:calc(1200px/2);\n}\n\n.relative\n{\n\tposition:relative;\n}\n\n.absolute\n{\n\tposition:absolute;\n}\n\n.flex\n{\n\tdisplay:flex;\n}\n\n.hidden\n{\n\tvisibility:hidden;\n}\n\n.stickytop\n{\n\tposition:sticky;\n\ttop:0;\n\tz-index:9999;\n}\n\n.stickyleft\n{\n\tposition:sticky;\n\tleft:0;\n\tz-index:9999;\n}\n\n.nowrap100\n{\n\tdisplay:inline-block;\n\toverflow:hidden;\n\twhite-space:nowrap;\n\twidth:100px;\n}\n\n.bold\n{\n\tfont-weight:800;\n\tcolor:#404048FF;\n}\n\n.backgroundvertical\n{\n\tbackground:linear-gradient(180deg,#44448888 1px,#ffffff00 1px);\n}\n\n.backgroundhorizontal\n{\n\tbackground:linear-gradient(90deg,#44448888 1px,#ffffff00 1px);\n}\n\n.backgroundpassed\n{\n\tbackground:linear-gradient(90deg,#44448888 1px,#44448822 1px);\n}\n\n.foreground\n{\n\tz-index:10000!important;\n}\n\n.popup\n{\n\tposition:absolute;\n\tpadding:10px;\n\tbox-shadow: 2px 2px 6px #000000bb;\n\tbackground:#ffffffff;\n\tz-index:10000;\n}\n\n.employeeload[employeeloadtype=\"red\"]\n{\n\toverflow:hidden;\n\theight:18px;\n\tbackground:linear-gradient(90deg,red 2px,red 2px);\n\tcolor:#000000ff;\n}\n\n\u003c/style\u003e\n\n\u003cdiv class=\"scrollable parent\" id=\"TableForEverything\"\u003e\n\t\u003cdiv class=\"relative table\" id=\"\u003c%-Context.data.id%\u003e\"\u003e\n\t\tТАБЛИЦА ДЛЯ ВСЕГО\n\t\u003c/div\u003e\n\u003c/div\u003e"
+msgstr "\u003cstyle\u003e\n\n.table\n{\n\tdisplay:table;\n}\n\n.tablerow\n{\n\tdisplay:table-row;\n\tmin-height:20px;\n}\n\n.tablecell\n{\n\tdisplay:table-cell;\n\tmin-width:40px;\n}\n\n.scrollable\n{\n\toverflow-x:scroll;\n\toverflow-y:scroll;\n\tmax-width:1200px;\n\tmax-height:calc(1200px/2);\n}\n\n.relative\n{\n\tposition:relative;\n}\n\n.absolute\n{\n\tposition:absolute;\n}\n\n.flex\n{\n\tdisplay:flex;\n}\n\n.hidden\n{\n\tvisibility:hidden;\n}\n\n.stickytop\n{\n\tposition:sticky;\n\ttop:0;\n\tz-index:9999;\n}\n\n.stickyleft\n{\n\tposition:sticky;\n\tleft:0;\n\tz-index:9999;\n}\n\n.nowrap100\n{\n\tdisplay:inline-block;\n\toverflow:hidden;\n\twhite-space:nowrap;\n\twidth:100px;\n}\n\n.bold\n{\n\tfont-weight:800;\n\tcolor:#404048FF;\n}\n\n.backgroundvertical\n{\n\tbackground:linear-gradient(180deg,#44448888 1px,#ffffff00 1px);\n}\n\n.backgroundhorizontal\n{\n\tbackground:linear-gradient(90deg,#44448888 1px,#ffffff00 1px);\n}\n\n.backgroundpassed\n{\n\tbackground:linear-gradient(90deg,#44448888 1px,#44448822 1px);\n}\n\n.foreground\n{\n\tz-index:10000!important;\n}\n\n.popup\n{\n\tposition:absolute;\n\tpadding:10px;\n\tbox-shadow: 2px 2px 6px #000000bb;\n\tbackground:#ffffffff;\n\tz-index:10000;\n}\n\n.employeeload[employeeloadtype=\"red\"]\n{\n\toverflow:hidden;\n\theight:18px;\n\tbackground:linear-gradient(90deg,red 2px,red 2px);\n\tcolor:#000000ff;\n}\n\n\u003c/style\u003e\n\n\u003cdiv class=\"scrollable parent\" id=\"TableForEverything\"\u003e\n\t\u003cdiv class=\"relative table\" id=\"\u003c%-Context.data.id%\u003e\"\u003e\n\t\tТАБЛИЦА ДЛЯ ВСЕГО\n\t\u003c/div\u003e\n\u003c/div\u003e"
+
+msgctxt ".descriptor.template.content.[6].content.[1].content.[0].values.label"
+msgid "RequestTableForEverything"
+msgstr "RequestTableForEverything"
+
+msgctxt ".descriptor.template.content.[6].content.[1].content.[1].values.label"
+msgid "RenderTableForEverything"
+msgstr "RenderTableForEverything"

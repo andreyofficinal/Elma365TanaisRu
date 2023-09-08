@@ -1,0 +1,119 @@
+<style>
+
+.table
+{
+	display:table;
+}
+
+.tablerow
+{
+	display:table-row;
+	min-height:20px;
+}
+
+.tablecell
+{
+	display:table-cell;
+	min-width:40px;
+}
+
+.scrollable
+{
+	overflow-x:scroll;
+	overflow-y:scroll;
+	max-width:1200px;
+	max-height:calc(1200px/2);
+}
+
+.relative
+{
+	position:relative;
+}
+
+.absolute
+{
+	position:absolute;
+}
+
+.flex
+{
+	display:flex;
+}
+
+.hidden
+{
+	visibility:hidden;
+}
+
+.stickytop
+{
+	position:sticky;
+	top:0;
+	z-index:9999;
+}
+
+.stickyleft
+{
+	position:sticky;
+	left:0;
+	z-index:9999;
+}
+
+.nowrap100
+{
+	display:inline-block;
+	overflow:hidden;
+	white-space:nowrap;
+	width:100px;
+}
+
+.bold
+{
+	font-weight:800;
+	color:#404048FF;
+}
+
+.backgroundvertical
+{
+	background:linear-gradient(180deg,#44448888 1px,#ffffff00 1px);
+}
+
+.backgroundhorizontal
+{
+	background:linear-gradient(90deg,#44448888 1px,#ffffff00 1px);
+}
+
+.backgroundpassed
+{
+	background:linear-gradient(90deg,#44448888 1px,#44448822 1px);
+}
+
+.foreground
+{
+	z-index:10000!important;
+}
+
+.popup
+{
+	position:absolute;
+	padding:10px;
+	box-shadow: 2px 2px 6px #000000bb;
+	background:#ffffffff;
+	z-index:10000;
+}
+
+.employeeload[employeeloadtype="red"]
+{
+	overflow:hidden;
+	height:18px;
+	background:linear-gradient(90deg,red 2px,red 2px);
+	color:#000000ff;
+}
+
+</style>
+
+<div class="scrollable parent" id="TableForEverything">
+	<div class="relative table" id="<%-Context.data.id%>">
+		ТАБЛИЦА ДЛЯ ВСЕГО
+	</div>
+</div>

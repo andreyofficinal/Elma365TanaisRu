@@ -1,0 +1,16 @@
+{
+  "number": 1,
+  "Service": "processor",
+  "entities": [
+    {
+      "name": "Debug AT",
+      "kind": "custom_activity_group",
+      "path": "entities/ca/ext_9e324a78-c635-4f21-883c-05c34feea2c9/9e324a78-c635-4f21-883c-05c34feea2c9_group.json.json",
+      "description": "",
+      "namespace": "ext_9e324a78-c635-4f21-883c-05c34feea2c9",
+      "code": "9e324a78-c635-4f21-883c-05c34feea2c9",
+      "history": null,
+      "resources": null
+    }
+  ]
+}

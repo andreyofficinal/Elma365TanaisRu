@@ -1,0 +1,27 @@
+{
+  "number": 1,
+  "Service": "widget",
+  "entities": [
+    {
+      "name": "Таблица для всего",
+      "kind": "widget",
+      "path": "entities/ext_9e324a78-c635-4f21-883c-05c34feea2c9/tabletforeverything",
+      "description": "",
+      "namespace": "ext_9e324a78-c635-4f21-883c-05c34feea2c9",
+      "code": "tabletforeverything",
+      "history": [
+        {
+          "version": "3a8a6d5e-a0c5-4e61-81ed-1bfe2b0aa9bb",
+          "updatedAt": "2023-09-01T13:47:17.761849772Z"
+        }
+      ],
+      "resources": [
+        {
+          "kind": "po",
+          "path": "resources/ext_9e324a78-c635-4f21-883c-05c34feea2c9/tabletforeverything.po",
+          "contentType": ""
+        }
+      ]
+    }
+  ]
+}

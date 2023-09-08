@@ -1,0 +1,19 @@
+{
+  "__id": "9e324a78-c635-4f21-883c-05c34feea2c9",
+  "__name": "Debug AT",
+  "group": "user",
+  "summary": "Первый экспериментальный модуль.",
+  "description": "",
+  "language": "ru-RU",
+  "help": "",
+  "icon": ["00000000-0000-0000-0000-000000000000"],
+  "author": "АТ",
+  "website": "",
+  "enabled": true,
+  "manageable": true,
+  "version": 0,
+  "__createdAt": "2023-08-03T14:49:14.795717596Z",
+  "__createdBy": "bc5f25d2-e599-4041-9764-37ebcd11a678",
+  "__updatedAt": "2023-08-15T08:51:45.522087279Z",
+  "__updatedBy": "bc5f25d2-e599-4041-9764-37ebcd11a678"
+}

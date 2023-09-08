@@ -1,0 +1,21 @@
+{
+  "number": 1,
+  "Service": "extensions",
+  "entities": [
+    {
+      "name": "Debug AT",
+      "kind": "extension",
+      "path": "entities/ext_9e324a78-c635-4f21-883c-05c34feea2c9.json",
+      "description": "",
+      "namespace": "global",
+      "code": "ext_9e324a78-c635-4f21-883c-05c34feea2c9",
+      "history": [
+        {
+          "version": "79b5aae6-7164-4503-be04-e7852e922edc",
+          "updatedAt": "2023-08-03T14:49:32.785167313Z"
+        }
+      ],
+      "resources": null
+    }
+  ]
+}
